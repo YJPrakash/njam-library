@@ -1,0 +1,6 @@
+<button class="bg-green-600">
+    <i *ngIf="leftIcon !=''" >{{leftIcon}}</i>
+    <span>{{label}}</span>
+    <ng-content></ng-content>
+    <i *ngIf="rightIcon !=''" >{{rightIcon}}</i>
+</button>
